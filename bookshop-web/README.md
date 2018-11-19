@@ -1,4 +1,4 @@
-# Notes on Customer Web application
+# Notes on Bookshop Web application
 
 ## If running locally
 
@@ -18,10 +18,11 @@ start server --server-port=0 --locators=localhost[10334] --name=server2
 start server --server-port=0 --locators=localhost[10334] --name=server3
 ```
 
-The first time the cluster is started, be sure to create the customer region.
+The first time the cluster is started, be sure to create the customer and books regions.
 
 ```bash
 create region --name=Customer --type=PARTITION
+create region --name=Books --type=REPLICATE
 ```
 
 ### Testing the application

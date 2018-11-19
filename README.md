@@ -1,0 +1,2 @@
+A sample Bookshop app based on the lab domain problem from the GemFire Developer and PCC courses.
+There will be several different project as part of this repo. One will focuse on the client web applciation. The other will contain components to be deployed to the server for things like implementing inline caching using `read through` and `write-behind` mechanisms provided by GemFire events and function execution.

@@ -1,0 +1,7 @@
+---
+applications:
+- name: bookshop-web
+  path: target/bookshop-web-0.0.1-SNAPSHOT.jar
+  services:
+    - bookshop-db
+    - bookshop-cache

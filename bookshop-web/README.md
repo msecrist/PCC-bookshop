@@ -60,7 +60,7 @@ You'll need to create two regions.
 1. Create a region called `Books` of type `REPLICATE`
 
 ### Deploying the app
-Once the services are created, you should be able to just push the app to your PCF instance.
+Once the services are created, you should be able to just package and push the app to your PCF instance.
 There is a manifest that specifies the two services above that will be bound to the app.
 You may need to modify the name of the application if there is a conflict in route name.
 
